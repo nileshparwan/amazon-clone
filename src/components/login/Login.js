@@ -6,6 +6,16 @@ function Login() {
     const [email, setEmail] = React.useState('');
     const [password, setPassword] = React.useState('');
 
+    const signIn = (e) => {
+        e.preventDefault();
+        // firebase login
+    };
+
+    const register = e => {
+        e.preventDefault();
+        // do firebase register
+    };
+
     return (
         <div className="login">
             <Link to="/home">
@@ -22,7 +32,7 @@ function Login() {
                     <h5>Password</h5>
                     <input type="password" value={password} onChange={e => setPassword(e.target.value)} required />
 
-                    <button className="login__signInButton">Sign In</button>
+                    <button type="submit" className="login__signInButton" onClick={signIn}>Sign In</button>
                 </form>
 
                 <p>
@@ -31,7 +41,7 @@ function Login() {
                     Noticed
                 </p>
 
-                <button className="login__registerButton">Create your Amazon Account</button>
+                <button className="login__registerButton" onClick={register}>Create your Amazon Account</button>
             </div>
 
         </div>
