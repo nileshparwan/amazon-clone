@@ -28,25 +28,28 @@ function Home() {
             <div className="home__row">
                 <Product
                     id="dfg"
-                    title="Kenwood Kmix Stand Mixer"
-                    price={239.0}
+                    title="Jesus"
+                    price={5.0}
                     rating={4}
-                    image="https://images-eu.ssl-images-amazon.com/images/I/41TR7G8VboL._AC_US160_FMwebp_QL70_.jpg"
+                    image="https://res.cloudinary.com/dv7pj5zyq/image/upload/v1599758016/funny/119205068_732623897584389_4999176745503571667_n_qwuna9.jpg"
                 />
+                {/* https://images-eu.ssl-images-amazon.com/images/I/41TR7G8VboL._AC_US160_FMwebp_QL70_.jpg */}
                 <Product
                     id="xcv"
-                    title="Kenwood Kmix Stand Mixer"
-                    price={239.0}
+                    title="Dark soul sa mama"
+                    price={4.50}
                     rating={4}
-                    image="https://m.media-amazon.com/images/I/61n6Ovq6EdL._AC_UY218_.jpg"
+                    image="https://res.cloudinary.com/dv7pj5zyq/image/upload/v1599758015/funny/119174003_3295424843906267_3928773546333168119_n_sguija.jpg"
                 />
+                {/* https://m.media-amazon.com/images/I/61n6Ovq6EdL._AC_UY218_.jpg */}
                 <Product
                     id="qwe"
-                    title="Kenwood Kmix Stand Mixer"
+                    title="Twcuii princess bad gyal"
                     price={239.0}
                     rating={4}
-                    image="https://m.media-amazon.com/images/I/61ZhiGSzb7L._AC_UY218_.jpg"
+                    image="https://res.cloudinary.com/dv7pj5zyq/image/upload/v1599758013/funny/119161127_2773718666234122_3470740908179442556_n_qbboe7.jpg"
                 />
+                {/* https://m.media-amazon.com/images/I/61ZhiGSzb7L._AC_UY218_.jpg */}
             </div>
 
             <div className="home__row">
