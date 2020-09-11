@@ -2,10 +2,13 @@ Amazon clone
 
 1. installation
 	React: npm create-react-app
-	icons: Material-ui
-	firebase globally => npm i -g firebase-tools
+	npm install @material-ui/core
+	firebase globally => 
+		npm i -g firebase-tools
+		npm i firebase 
 	react-router-dom
-	npm i @stripe/stripe-js
+	npm install @stripe/react-stripe-js @stripe/stripe-js
+	axios
 
 2. add firebase config in config file
 	open firebase > project setting 
@@ -39,14 +42,47 @@ Link: https://fir-82e13.web.app/
 		checkout page(payment page)
 		cloud function to process stripe payment. 
 
-	install stripe 
+	1) install stripe 
 
-	create a stripe account
+	2) create a stripe account
 		Go to Get your test api keys or (
 											Go to:
 											Developers > api keys
 										)
-		
 
+6. setting up cloud function 
+	1. run this command in your terminal
+		firebase init
+			1. Are you ready to proceed: Y
+			2. select functions: configure and deploy cloud functions
+			3. what language would you like to use to write clound functions? 
+				select your language: {javascript or typescript}
+				(select js)
+			4. do you want to use ESlint to catch bugs: Y
+			5. do you want to install depencies with npm now? Y
+
+	2. a function folder will be generated automatically
+			this folder is a complete backend folder. 
+
+			[IMPORTANT!] when you do npm i now, 
+						 make sure that you are inside the function folder. 
+
+	3. build an express app and host in a cloud function. (inside of function folder)
+	   move to function > index
+	   and do an 
+			npm install express
+			npm install cors
+			npm install stripe
+
+	4. after setting up the express server, run the following command
+			firebase emulators:start => this will spin up an express server
+
+			Now in the log there shpuld be something like that: (+  functions[api]: http function initialized (http://localhost:5001/fir-82e13/us-central1/api). )
+
+			This is an api endpoint
+	
+	(**The only way to make that a full payment is to switch from using the test keys to the real keys )
+		
+	5. implement firestore
 
 
