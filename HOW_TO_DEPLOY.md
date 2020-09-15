@@ -22,17 +22,17 @@ Amazon clone
    click on email and password and enabled.
    Then in your project terminal, do npm i firebase.
 
-4. deploy
+4. deploy(FIRST TIME)
    run the following code in your terminal
    firebase login
    firebase init
-   select
-   hosting
-   use an existing project
-   public directory ? => build
-   Configure as a single-page app (rewrite all urls to /index.html): y
-   npm run build
-   firebase deploy
+   select the following when ask on terminal
+        hosting
+        use an existing project
+        public directory ? => build
+        Configure as a single-page app (rewrite all urls to /index.html): y
+        npm run build
+        firebase deploy
 
 Link: https://fir-82e13.web.app/ 5. checkout payment
 day4
@@ -83,7 +83,19 @@ cloud function to process stripe payment.
 7.  Re deploy after making changes
     go to terminal(backend function(folder) terminal) and type in the following
 
-    1. firebase deploy --only functions
-            if it fails, go to firebase and update your plan to blaze(just add your card details, it does not cut money)
-            scroll down change spark to blaze and follow the steps
-    2. 
+    1. firebase deploy --only functions ==> (backend deployment)
+       if it fails, go to firebase and update your plan to blaze(just add your card details, it does not cut money)
+       scroll down change spark to blaze and follow the steps
+    2. on the link provided at the end of terminal, go firebase > function > and copy the request link
+    3. paste link in axios folder(api link)
+    4. on front end that is (outside function folder) run
+       npm run build
+       firebase deploy --only hosting
+
+
+************************************************************************************************************************************************
+
+1. test on local 
+    change axios api to local test
+    start the backend => firebase emulators:start
+    start the front => npm run start
