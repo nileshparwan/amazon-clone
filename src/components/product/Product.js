@@ -25,7 +25,7 @@ function Product({ id, title, image, price, rating }) {
                 <p>{title || "The lean startup"}</p>
                 <p className="product__price">
                     <small>$</small>
-                    <strong>{price || 19.99}</strong>
+                    <strong>{price || 0}</strong>
                 </p>
                 <div className="product__rating">
                     {Array(rating).fill().map((_, i) => <span role="img" aria-label="star" key={i}>⭐</span>)}

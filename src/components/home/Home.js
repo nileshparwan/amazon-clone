@@ -12,56 +12,55 @@ function Home() {
             <div className="home__row">
                 <Product
                     id="lk"
-                    title="The lean startup"
-                    price={29.99}
-                    image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg"
+                    title="Xcentz iPhone Charger 10ft, MFi Certified Lightning Cable, Braided Nylon High-Speed iPhone Cable with Premium Metal Connector for iPhone 11/X/XS/XR/XS Max/8/7/6/5S/SE, iPad Pro/Mini/Air, Blue"
+                    price={16.49}
+                    image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg"
                     rating={5} />
                 <Product
                     id="qwe"
-                    title="Kenwood Kmix Stand Mixer"
-                    price={239.0}
+                    title="AmazonBasics Portable Wireless, 2.1 Bluetooth Speaker, Black"
+                    price={30.78}
                     rating={4}
-                    image="https://m.media-amazon.com/images/I/61gCBYR5G7L._AC_UY218_.jpg"
+                    image="https://images-na.ssl-images-amazon.com/images/G/01/amazonglobal/images/email/asins/DURM-230DA9039F21E515._V535729156_.jpg"
                 />
             </div>
 
             <div className="home__row">
                 <Product
                     id="dfg"
-                    title="Jesus"
-                    price={5.0}
-                    rating={4}
-                    image="https://res.cloudinary.com/dv7pj5zyq/image/upload/v1599758016/funny/119205068_732623897584389_4999176745503571667_n_qwuna9.jpg"
+                    title="Samsung Galaxy A20S w/Triple Cameras (32GB, 3GB RAM) 6.5 Display, Snapdragon 450, 4000mAh Battery, US & Global 4G LTE GSM Unlocked A207M/DS - International Model (Blue, 32GB + 64GB SD Bundle)"
+                    price={176.83}
+                    rating={5}
+                    image="https://images-eu.ssl-images-amazon.com/images/I/41TR7G8VboL._AC_US160_FMwebp_QL70_.jpg"
                 />
-                {/* https://images-eu.ssl-images-amazon.com/images/I/41TR7G8VboL._AC_US160_FMwebp_QL70_.jpg */}
+
                 <Product
                     id="xcv"
-                    title="Dark soul sa mama"
-                    price={4.50}
+                    title="Google - Pixel 3a with 64GB Memory Cell Phone (Unlocked) - Just Black"
+                    price={443.20}
                     rating={4}
-                    image="https://res.cloudinary.com/dv7pj5zyq/image/upload/v1599758015/funny/119174003_3295424843906267_3928773546333168119_n_sguija.jpg"
+                    image="https://m.media-amazon.com/images/I/61n6Ovq6EdL._AC_UY218_.jpg"
                 />
-                {/* https://m.media-amazon.com/images/I/61n6Ovq6EdL._AC_UY218_.jpg */}
+
                 <Product
                     id="qwe"
-                    title="Twcuii princess bad gyal"
-                    price={239.0}
+                    title="BLU Advance A4 2019- Unlocked Dual Sim, 16GB -Black"
+                    price={39.99}
                     rating={4}
-                    image="https://res.cloudinary.com/dv7pj5zyq/image/upload/v1599758013/funny/119161127_2773718666234122_3470740908179442556_n_qbboe7.jpg"
+                    image="https://m.media-amazon.com/images/I/61ZhiGSzb7L._AC_UY218_.jpg"
                 />
-                {/* https://m.media-amazon.com/images/I/61ZhiGSzb7L._AC_UY218_.jpg */}
+
             </div>
 
             <div className="home__row">
                 <Product
                     id="asd"
-                    title="Kenwood Kmix Stand Mixer"
-                    price={239.0}
+                    title="Samsung QN32Q50RAFXZA Flat 32'' QLED 4K 32Q50 Series Smart TV"
+                    price={447.99}
                     rating={4}
                     image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355.jpg"
                 />
             </div>
-
         </div >
     );
 }
