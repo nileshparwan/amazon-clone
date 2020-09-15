@@ -1,0 +1,138 @@
+.footer {
+  margin: 0 auto;
+  margin-top: 10x;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  max-width: 1500px;
+}
+
+.footer__moveToTop {
+  background-color: #37475a;
+  text-align: center;
+  color: #fff;
+}
+
+.footer__moveToTop > span {
+  display: block;
+  padding: 15px;
+}
+
+.footer__middle {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  background-color: #232f3e;
+  padding: 40px 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer__middle__row {
+  display: flex;
+  align-items: start;
+  flex-basis: 1000px;
+}
+
+.footer__middle__col {
+  padding: 0 10px;
+  flex: 1;
+}
+
+.footer__middle__col > p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 6px 0 14px 0;
+  white-space: nowrap;
+}
+
+.footer__middle__col > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__middle__col > ul > li {
+  margin: 0 0 10px;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.footer__middle__col > ul > li > a {
+  color: #ddd;
+  font-size: 13px;
+}
+.footer__middle__col > ul > li:hover a {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.footerSectionTwo {
+  padding: 30px 5px;
+  background-color: #232f3e;
+}
+
+.footerSectionTwo__col > img {
+  width: 100px;
+  object-fit: contain; /*use when resizing image*/
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.footerSectionTwo__col {
+  display: flex;
+  justify-content: center;
+}
+
+.footerSectionTwo__col .footerSectionTwo__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.footerSectionTwo__btn > a {
+  background-color: #232f3e;
+  color: white;
+  padding: 6px 18px 6px 8px;
+  font-size: 16px;
+  border: 1px solid #848688;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+.footerSectionThree {
+  background-color: #131a22;
+  padding: 30px 0;
+  /* margin: 30px 0 0; */
+}
+
+.footerSectionThree__row {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  flex-basis: 1000px;
+}
+
+.footerSectionThree__col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.footerSectionThree__col > a {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  color: white;
+}
+
+.footerSectionThree__col > a:hover {
+  text-decoration: underline;
+}
+
+.footerSectionThree__col > a > small {
+  color: #ddd;
+  font-size: 11px;
+}

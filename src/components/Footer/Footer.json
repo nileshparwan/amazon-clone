@@ -1,0 +1,171 @@
+{
+  "title": "Back to top",
+
+  "footerOne": [
+    {
+      "title": "Get to know us",
+      "item": [
+        { "title": "Careers", "url": "" },
+        { "title": "Blog", "url": "" },
+        { "title": "About Amazon", "url": "" },
+        { "title": "Sustainability", "url": "" },
+        { "title": "Investor Relations", "url": "" },
+        { "title": "Amazon Devices", "url": "" },
+        { "title": "Amazon Tours", "url": "" }
+      ]
+    },
+    {
+      "title": "Amazon Payment Products",
+      "item": [
+        { "title": "Sell products on Amazon", "url": "" },
+        { "title": "Sell apps on Amazon", "url": "" },
+        { "title": "Become an Affiliate", "url": "" },
+        { "title": "Advertise Your Products", "url": "" },
+        { "title": "Self-Publish with Us", "url": "" },
+        { "title": "Host an Amazon Hub", "url": "" },
+        { "title": "›See More Make Money with Us", "url": "" }
+      ]
+    },
+    {
+      "title": "Let Us Help You",
+      "item": [
+        { "title": "Amazon Business Card", "url": "" },
+        { "title": "Shop with Points", "url": "" },
+        { "title": "Reload Your Balance", "url": "" },
+        { "title": "Amazon Currency Converter", "url": "" }
+      ]
+    },
+    {
+      "title": "Make Money with us",
+      "item": [
+        { "title": "Amazon and COVID-19", "url": "" },
+        { "title": "Your Account", "url": "" },
+        { "title": "Your Orders", "url": "" },
+        { "title": "Shipping Rates & Policies", "url": "" },
+        { "title": "Returns & Replacements", "url": "" },
+        { "title": "Manage Your Content and Devices", "url": "" },
+        { "title": "Amazon Assistant", "url": "" },
+        { "title": "Help", "url": "" }
+      ]
+    }
+  ],
+
+  "footerTwo": {
+    "image": {
+      "url": "http://pngimg.com/uploads/amazon/amazon_PNG11.png",
+      "description": "amazon-logo"
+    },
+    "language": {
+      "description": "Change language",
+      "language": [
+        {
+          "title": "English",
+          "url": ""
+        },
+        {
+          "title": "French",
+          "url": ""
+        }
+      ]
+    },
+    "moneyType": {
+      "title": "USD - U.S.Dollar",
+      "url": ""
+    },
+    "country": {
+      "name": "United States",
+      "url": "#"
+    }
+  },
+
+  "footerThree": [
+    [
+      {
+        "title": "Amazon Rapids",
+        "subtitle": "Find, attract, and engage customers",
+        "url": ""
+      },
+      {
+        "title": "CeateSpace",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      },
+      {
+        "title": "IMDbPro",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      },
+      {
+        "title": "Ring",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      }
+    ],
+    [
+      {
+        "title": "Amazon Rapids",
+        "subtitle": "Find, attract, and engage customers",
+        "url": ""
+      },
+      {
+        "title": "CeateSpace",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      },
+      {
+        "title": "IMDbPro",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      },
+      {
+        "title": "Ring",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      }
+    ],
+    [
+      {
+        "title": "Amazon Rapids",
+        "subtitle": "Find, attract, and engage customers",
+        "url": ""
+      },
+      {
+        "title": "CeateSpace",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      },
+      {
+        "title": "IMDbPro",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      },
+      {
+        "title": "Ring",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      }
+    ],
+    [
+      {
+        "title": "Amazon Rapids",
+        "subtitle": "Find, attract, and engage customers",
+        "url": ""
+      },
+      {
+        "title": "CeateSpace",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      },
+      {
+        "title": "IMDbPro",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      },
+      {
+        "title": "Ring",
+        "subtitle": "Start a Selling Account",
+        "url": ""
+      }
+    ]
+  ]
+}
