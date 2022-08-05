@@ -6,7 +6,6 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  max-width: 1500px;
 }
 
 .footer__moveToTop {
